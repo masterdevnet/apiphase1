@@ -15,10 +15,20 @@ Este projeto tem como objetivo estudar a criação de uma API utilizando o Larav
 API DEVELOPMENT - FASE 1 - SEM QUALQUER AUTENTICAÇÃO
 AVAILABLE AUTHENTICATIONS - JWT. PASSPORT, SANCTUN
 
+composer create-project --prefer-dist laravel/laravel apiphase1
+php artisan make:controller Api/ApiController
+
 ### EXEMPLO:
     TABLE- employees (funcionários)
     Columns - id, name, email, phone_no, gender, age
 
-composer create-project --prefer-dist laravel/laravel apiphase1
+### ROUTES SETUP - GET, POST, PUT, DELETE
+    Migration Settingos
+    Model Settings
 
-php artisan make:controller Api/ApiController 
+php artisan make:migration CreateEmployeeTable
+php artisan migrate
+
+
+
+ 

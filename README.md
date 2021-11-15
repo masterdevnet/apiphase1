@@ -11,7 +11,7 @@
 
 Este projeto tem como objetivo estudar a criação de uma API utilizando o Laravel
 
-### FASRS DO PROJETO
+### FASES DO PROJETO
 API DEVELOPMENT - FASE 1 - SEM QUALQUER AUTENTICAÇÃO
 AVAILABLE AUTHENTICATIONS - JWT. PASSPORT, SANCTUN
 
@@ -19,6 +19,6 @@ AVAILABLE AUTHENTICATIONS - JWT. PASSPORT, SANCTUN
     TABLE- employees (funcionários)
     Columns - id, name, email, phone_no, gender, age
 
-composer create-project --prefer-dist laravel/laravel blog
+composer create-project --prefer-dist laravel/laravel apiphase1
 
 php artisan make:controller Api/ApiController 

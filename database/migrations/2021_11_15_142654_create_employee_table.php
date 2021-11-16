@@ -20,7 +20,6 @@ class CreateEmployeeTable extends Migration
             $table->string("phone_no", 25);
             $table->enum("gender", ["male", "female", "others"]);
             $table->integer("age")->unsigned();
-            $table->timestamps();
         });
     }
 

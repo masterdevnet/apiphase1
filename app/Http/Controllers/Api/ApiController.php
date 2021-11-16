@@ -8,27 +8,27 @@ use PhpParser\Node\Expr\FuncCall;
 
 class ApiController extends Controller
 {
-    // CREATE API
+    // CREATE API - POST
     public function createEnployee(Request $request) {
 
     }
 
-    // LIST API
+    // LIST API - GET
     public function listEmployee() {
 
     }
 
-    // SINGLE DETAIL API
+    // SINGLE DETAIL API - GET
     public function getSingleEmployee($id) {
 
     }
 
-    // UPADTAE API
+    // UPADTAE API - PUT
     public function updateEmployee(Request $request, $id) {
 
     }
 
-    // DELETE API
+    // DELETE API - DELETE
     public function deleteEmployee($id) {
 
     }
